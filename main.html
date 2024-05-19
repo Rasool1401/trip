@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Lakshwadeep</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        *{
+
+          padding: 0px;
+          margin: 0px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .box a{
+            position: relative;
+            left: 700px;
+            top: 50px;
+            text-decoration: none;
+            padding: 20px;
+            letter-spacing: 4px;
+            color: white;
+            text-shadow: 3px 1px 2px black;
+            font-size: 20px;
+            z-index: 1;
+            font-weight: bold;
+        }
+        .box a:hover{
+            color: rgb(41, 42, 44);
+            text-shadow: 0px 0px 7px rgb(252, 249, 249);
+
+        }
+
+        .bg{
+
+            margin-left: 46px;
+            width: 1188px;
+            padding-left: 0px;
+            box-shadow: 0px 0px 15px 5px rgba(70, 78, 86, 0.632);    
+        }
+        #name{
+            position: absolute;
+            top: 220px;
+            left: 180px;
+            font-size: 120px;
+            color: white;
+            text-shadow: 10px 10px 20px rgb(12, 12, 12);
+            letter-spacing: 8px;
+
+        }
+        #logo{
+            position: absolute;
+            width: 40px;
+            left: 60px;
+            top: 40px;
+        }
+        .typp{
+            position: absolute;
+            top: 340px;
+            z-index: 1;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            left: 190px;
+            text-shadow: 10px 10px 30px rgb(12, 12, 12);
+            letter-spacing: 2px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box ">
+        <a href="about.html" target="_blank" >ABOUT</a>
+        <a href="activites.html" target="_blank" >ACTIVITES</a>
+        <a href="contact.html" target="_blank">CONTACT</a>   
+    </div>
+
+    <div>
+        <img class="bg" src="images/background.jpg">
+    </div>
+
+    <div >
+        <a id="name">LAKSHWADEEP</a>
+    </div>
+    <div>
+        <img id="logo" src="images/logo.jpg">
+
+    </div>
+    <div class="typp">
+        <span class="auto-type"></span>
+    </div>
+    <script>
+
+  var Typed = new Typed(".auto-type", {
+    strings:[" ","DISCOVER","EXPLORE","EXPERIENCE"],
+    typeSpeed: 150,
+    backspeed:100,
+    loop:true
+  })
+    </script>
+</body>
+</html>
